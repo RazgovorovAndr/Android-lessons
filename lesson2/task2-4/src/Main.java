@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args){
         task2();
         task3();
@@ -41,7 +42,6 @@ public class Main {
         Card king_of_diamonds = new Card(king, diamond);
         Card queen_of_hearts = new Card(queen, hearts);
         Card crane_and_sun_of_diamonds = new Card(new HafunadaRank(HafunadaRank.Ranks.CRANE_AND_SUN), diamond);
-
 
         //toString
         System.out.println(queen_of_diamonds); // QUEEN OF DIAMONDS
@@ -112,7 +112,6 @@ public class Main {
             deck.popBack();
 
         System.out.println("empty deck = " + deck);
-
         System.out.println("End task 4");
     }
 }

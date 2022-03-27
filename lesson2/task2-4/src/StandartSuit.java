@@ -1,4 +1,3 @@
-
 public class StandartSuit extends Suit{
 
     StandartSuit(StandartSuit.Suits _suit){

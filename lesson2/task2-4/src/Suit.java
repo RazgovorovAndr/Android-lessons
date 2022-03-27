@@ -1,4 +1,3 @@
-
 public abstract class Suit implements Comparable<Suit>{
     protected Object suitObj;
 

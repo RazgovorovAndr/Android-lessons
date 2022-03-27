@@ -65,9 +65,4 @@ public class Deck {
         return deck.get(rand.nextInt(deck.size()));
     }
 
-
-
-//    public boolean Empty() {
-//        return deck.IsEmpty();
-//    }
 }

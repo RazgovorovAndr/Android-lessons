@@ -3,7 +3,6 @@ import java.util.EnumMap;
 
 public class HafunadaSuit extends Suit{
 
-
     HafunadaSuit(HafunadaSuit.Suits _suit){
         suitObj = _suit;
     }

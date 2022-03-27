@@ -39,6 +39,7 @@ public class HafunadaRank extends Rank{
             put(HafunadaSuit.Suits.DECEMBER, HafunadaRank.Ranks.CHINESE_PHOENIX);
         }
     };
+
     @Override
     Rank GetNextMaxRank(Suit suit){
         /*

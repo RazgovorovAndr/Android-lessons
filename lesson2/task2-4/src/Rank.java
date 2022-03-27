@@ -1,4 +1,3 @@
-
 public abstract class Rank implements Comparable<Rank>{
     protected Object rankObj;
 
